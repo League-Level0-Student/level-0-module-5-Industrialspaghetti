@@ -29,6 +29,8 @@ bob.setSpeed(5);
 				bob.setPenColor(Color.black);
 				bob.move(50);
 				bob.turn(60);
+				if (i % 2) = 0
+				bob.setPenColor(Color.blue);
 				
 				
 				
