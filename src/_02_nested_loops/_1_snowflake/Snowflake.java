@@ -29,13 +29,17 @@ bob.setSpeed(5);
 				bob.setPenColor(Color.black);
 				bob.move(50);
 				bob.turn(60);
-				if (i % 2) = 0
+				if (i % 2 == 0)
 				bob.setPenColor(Color.blue);
 				
+				if(i % 2 == 1)
+				bob.setPenColor(Color.RED);
 				
-				
-				
-				
+				for (int j = 0; j < 6; j++) {
+					bob.turn(-60);
+					bob.move(50);
+				}
+				bob.setPenColor(Color.BLACK);
 				
 			}
 			// #6. Set the pen color to black
