@@ -1,20 +1,30 @@
-
+int x =90;
+int x2 = 320;
+int speed = 5;
 void setup() {
   size (400,400);
 }
 
 void draw() {
   
-  
+  background(#29FFAF);
   int ringSize = 120;
-  for (int i = 0; i < 6; i++) {
- noFill();
-  ellipse( 200, 200, ringSize, ringSize);
-  ringSize -= 20;
- noFill();
- ellipse( 400,200, ringSize, ringSize);
- ringSize -= 30;
+  if ( x == 400 || x == 0){
+   speed =- speed;
+    
   }
+  for (int i = 0; i < 6; i++) {
+    
+ noFill();
+  ellipse( x, 200, ringSize, ringSize);
+
+ 
+ ellipse( x2,200, ringSize, ringSize);
+ ringSize -= 20;
+ 
+  }
+  x += speed;
+  x2 -= speed;
   // Go to the recipe to run the demonstration before starting this program
   
   /*
