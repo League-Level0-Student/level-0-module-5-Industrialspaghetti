@@ -38,8 +38,11 @@ public class Forloopguantlet {
 			}
 			if (i % 2 == 1) {
 				System.out.println(i +"odd");
+			
 			}
-		}
+		
+	
+	}
 		
 	}
 }
