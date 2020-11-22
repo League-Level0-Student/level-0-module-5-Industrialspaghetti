@@ -48,7 +48,20 @@ public class Forloopguantlet {
 			System.out.println(i);
 		}
 		}
-	for (int i = 2005; i < 2020; i++) {
+	for (int i = 2005; i < 2021; i++) {
+		System.out.println(" in " +i+ " I was "+(i-2005)+" years old");
+	}
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+		 System.out.println(i+ " " +j);
+		}
+		
+	}
+	for (int i = 1; i <= 7; i+=3) {
+		for (int j = i; j <= i+2; j++) {
+		System.out.print(j);	
+		}
+		System.out.println();
 		
 	}
 	}
