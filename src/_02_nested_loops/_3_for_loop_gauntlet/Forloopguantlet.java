@@ -64,5 +64,15 @@ public class Forloopguantlet {
 		System.out.println();
 		
 	}
+	for (int i = 1; i <= 91; i+=10) {
+		for (int j = i; j < i+10; j++) {
+		System.out.print(j);	
+		}
+		System.out.println();
+	}
+	for (int i = 0; i < ; i++) {
+		
+		
+	}
 	}
 }
