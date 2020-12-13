@@ -9,8 +9,23 @@ public static void main(String[] args) {
 	for (int i = 0; i < args.length; i++) {
 		
 	}
-	shape.penDown();
-	shape.setPenColor(Color.black);
+	
+	
+}
+public static void drawSquare(){
+	//square nope
+		shape.penDown();
+		shape.setPenColor(Color.black);
+		shape.setSpeed(10);
+		shape.move(60);
+		shape.turn(90);
+		shape.move(60);
+		shape.turn(90);
+		shape.move(60);
+		shape.turn(90);
+		shape.move(60);
+	
+	
 }
 static Robot shape = new Robot(); 
 }
