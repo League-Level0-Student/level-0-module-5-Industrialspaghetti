@@ -6,25 +6,34 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class ObediantRobot {
 public static void main(String[] args) {
-	for (int i = 0; i < args.length; i++) {
-		
-	}
-	
-	
+	shape.penDown();
+	shape.setPenColor(Color.black);
+	shape.setSpeed(10);
+	 drawSquare();
+	 drawTriangle();
+	 drawCircle();
 }
 public static void drawSquare(){
 	//square nope
-		shape.penDown();
-		shape.setPenColor(Color.black);
-		shape.setSpeed(10);
-		shape.move(60);
-		shape.turn(90);
-		shape.move(60);
-		shape.turn(90);
-		shape.move(60);
-		shape.turn(90);
-		shape.move(60);
+
+		for (int i = 0; i < 4; i++) {
+			shape.move(60);
+			shape.turn(90);
+		}
 	
+		
+	
+}
+public static void drawTriangle() {
+	
+	for (int i = 0; i < 3; i++) {
+		shape.move(60);
+		shape.turn(90);
+		
+	}
+	
+}
+public static void drawCircle() {
 	
 }
 static Robot shape = new Robot(); 
